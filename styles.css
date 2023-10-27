@@ -1,0 +1,44 @@
+*{
+    font-family: 'Roboto', sans-serif;
+* }
+body{
+    display:flex;
+    justify-content: center;
+    font-size: small;
+}
+.post{
+    /* height: 550px; */
+    width: 400px;
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px;
+}
+.izquierda{
+    display: flex;
+    margin: 0;
+    height: 40px;
+}
+.ht5{
+    font-size: x-large;
+    width:auto;
+    margin-left: 5px;
+}
+.elipsis{
+    font-size: x-large;
+    margin-right: 10px;
+}
+.pt{
+    margin: 0;
+}
+.textheader{
+    margin-left: 5px;
+}
+.post-icons{
+    display:flex;
+    justify-content: space-between;
+    font-size:x-large;
+    padding: 10px;
+}
